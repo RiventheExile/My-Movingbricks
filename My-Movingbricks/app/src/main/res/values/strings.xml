@@ -1,0 +1,69 @@
+<resources>
+
+    <string name="app_name">倾国倾城</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!--Home tab 首页的底部几个tab -->
+    <string name="title_activity_login">首页</string>
+    <string name="login_cb_save_id">搜索</string>
+
+
+
+    <!--左侧抽屉 -->
+    <string name="drag_item_use">使用手册</string>
+    <string name="drag_item_gonggao">系統公告</string>
+    <string name="drag_item_update">版本更新</string>
+
+    <!--顶部文字显示 -->
+    <string name="tv_top1">最新</string>
+    <string name="tv_top2">最热</string>
+    <string name="tv_top3">推荐</string>
+    <string name="tv_top4">专题</string>
+
+    <string name="change_pwd_chk_show_pwd">显示密码</string>
+    <string name="title_activity_feed_back">意见反馈</string>
+    <string name="ip_btn_cancel">取消</string>
+    <string name="ip_btn_ok">确定</string>
+    <string name="change_pwd_btnok">确定</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="settings_tv_about">关于我们</string>
+    <string name="settings_tv_change_pwd">修改密码</string>
+    <string name="settings_tv_clear_cache">清除缓存</string>
+    <string name="settings_tv_feedback">意见反馈</string>
+    <string name="settings_tv_contact_us">联系我们</string>
+    <string name="settings_tv_support">技术支持</string>
+    <string name="settings_tv_logout">退出登录</string>
+    <string name="dialog_logout_tv_logout">退出当前账号</string>
+    <string name="dialog_logout_tv_cancel">取消</string>
+    <string name="dialog_logout_tv_ok">确认退出</string>
+    <string name="title_activity_shus_mission_detail">任务详情</string>
+
+    <item name="statusbarutil_fake_status_bar_view" type="id"/>
+    <item name="statusbarutil_translucent_view" type="id"/>
+
+    <string name="listview_header_hint_normal">下拉刷新...</string>
+    <string name="listview_header_hint_release">释放刷新...</string>
+    <string name="listview_loading">努力加载中...</string>
+    <string name="nomore_loading">没有更多内容了</string>
+    <string name="refreshing">正在刷新...</string>
+    <string name="refresh_done">刷新完成...</string>
+    <string name="listview_header_last_time">上次更新时间：</string>
+
+    <string name="loading">正在加载...</string>
+    <string name="error_refresh">加载失败,点击重试</string>
+
+    <string name="http_Error">数据错误，请更换关键词试试</string>
+    <string name="http_no">暂无数据</string>
+    <string name="OkhttpError">网络异常,请重试</string>
+    <string name="OkhttpDataError">数据异常,请重试</string>
+    <string name="hasLogin">已登入</string>
+    <string name="OkhttpDelete">移除成功</string>
+    <string name="OkhttpDeleteError">移除失败，请重试</string>
+    <string name="http_nodata">暂无搜索记录</string>
+    <string name="httpEditError">入录失败，请重试</string>
+    <string name="httpEditSuccess">入录成功,下拉刷新</string>
+    <string name="uploadPhotoSuccess">上传成功，下拉刷新</string>
+    <string name="uploadPhotoError">上传失败</string>
+</resources>
+

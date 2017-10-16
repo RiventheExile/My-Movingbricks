@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <com.my_movingbricks.view.widgets.HackyViewPager
+        android:id="@+id/very_image_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_delete_big_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="13dp"
+        android:background="@drawable/bg_save_big_image"
+        android:text="排除"
+        android:textColor="#f00"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/very_image_viewpager_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:textColor="#ff0000"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tv_save_big_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginRight="13dp"
+        android:background="@drawable/bg_save_big_image"
+        android:text="保存"
+        android:textColor="#fff"
+        android:textSize="13sp" />
+
+</RelativeLayout>

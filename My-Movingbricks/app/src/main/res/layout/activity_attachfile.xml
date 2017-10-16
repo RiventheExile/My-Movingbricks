@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/header_titlebar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/reply_bg">
+
+        <com.my_movingbricks.libs.bgarefreshlayout.BGARefreshLayout
+            android:id="@+id/mRefreshLayout"
+            style="@style/MatchMatch">
+
+            <GridView
+                android:id="@+id/id_gridView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:cacheColorHint="@android:color/transparent"
+                android:clipChildren="true"
+                android:gravity="center"
+                android:horizontalSpacing="3dip"
+                android:listSelector="@android:color/transparent"
+                android:numColumns="2"
+                android:scrollbarStyle="insideOverlay"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="3dip"></GridView>
+
+            <!--http://blog.csdn.net/ccpat/article/details/50805129
+            android:scrollbarStyle="outsideInset"
+            滚动条显示在右侧padding之外
+            insideoverlay：表示滚动条右侧和ListView可用区域右侧对其，且覆盖在Item之上。
+ insideInset：表示滚动条右侧和ListView可用区域右侧对其，但不覆盖在Item之上，而是将Item挤到滚动条的左边。
+ outsideoverlay：表示滚动条右侧和ListView右侧对其，且覆盖在右侧padding之上。
+ outsideinset：表示滚动条右侧和ListView可用区域右侧对其，但不覆盖在padding之上，而是将padding挤到滚动条的左边。-->
+        </com.my_movingbricks.libs.bgarefreshlayout.BGARefreshLayout>
+
+        <include
+            android:id="@+id/ll_error_refresh"
+            layout="@layout/view_error_refresh" />
+    </FrameLayout>
+
+</LinearLayout>

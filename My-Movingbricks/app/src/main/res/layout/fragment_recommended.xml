@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF">
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/header_titlebar" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/reply_bg">
+
+            <com.my_movingbricks.recyclerview.XRecyclerView
+                android:id="@+id/xrv_welfare"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="true"
+                android:scrollbarSize="4dp"
+                android:scrollbarThumbVertical="@color/tabBackground"
+                android:scrollbars="vertical" />
+
+        <include
+            android:id="@+id/ll_error_refresh"
+            layout="@layout/view_error_refresh" />
+    </FrameLayout>
+</LinearLayout>
